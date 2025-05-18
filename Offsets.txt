@@ -1,1 +1,51 @@
+#pragma once
 
+// Some of these classes may be wrong, i got way to sloppy while making this😭
+
+#define UWORLD 0x181A2B08 // UWorld | Globals
+#define GAME_INSTANCE 0x228 // OwningGameInstance | World
+#define LOCAL_PLAYERS 0x38 // LocalPlayers | GameInstance
+#define PLAYER_CONTROLLER 0x30 // PlayerController | Player
+#define LOCAL_PAWN 0x350 // Not Found!
+#define PAWN_PRIVATE 0x320 // PawnPrivate | PlayerState
+#define ROOT_COMPONENT 0x1B0 // RootComponent | PlayerInfo
+#define PROJECTILE_SPEED 0x2024 // ProjectileSpeed | Globals
+#define PROJECTILE_GRAVITY 0x1d40 // ProjectileGravity | Globals
+#define RELATIVE_LOCATION 0x138 // RelativeLocation | SceneComponent
+#define PLAYER_STATE 0x2c8 // PlayerState | Pawn
+#define TEAM_INDEX 0x1269 // TeamIndex | FortPlayerStateAthena
+#define GAME_STATE 0x1b0 // GameState | World
+#define PLAYER_ARRAY 0x2C0 // PlayerArray | GameStateBase
+#define MESH 0x328 // Mesh | Character
+#define COMPONENT_TO_WORLD 0x1E0 // ComponentToWorld | Globals
+#define BONE_ARRAY 0x5E8 // ComponentSpaceTransformsArray | Globals
+#define BONE_ARRAY_CACHE 0x5F8 // Unknown
+#define LAST_SUBMIT_TIME 0x160 // Unknown
+#define LAST_SUBMIT_TIME_ON_SCREEN 0x33c // Unknown
+
+
+#define VELOCITY 0x180 // ComponentVelocity | SceneComponent
+#define CURRENT_WEAPON 0xAA8 // CurrentWeapon | FortPawn
+#define DISPLAY_NAME 0x40 // Unknown
+#define HABANERO_COMPONENT 0xa60 // HabaneroComponent | FortPlayerState
+#define RANKED_PROGRESS 0xD0  // RankedProgress | FortPlayerStateComponent_Habanero
+#define WEAPON_NAME 0x40 // Not Found!
+#define PERSISTENT_LEVEL 0x38 // PersistentLevel | World 
+#define ISDYING 0x728 // IsDying | FortPawn
+#define PLAYERNAME 0xB08 // Not Found!
+#define DEFAULTFOV 0x2BC // DefaultFOV | PlayerCameraManager
+#define BASEFOV 0x370 // BaseFOV | EmitterCameraLensEffectBase
+#define PLAYER_ID 0x2ac // PlayerId | PlayerState
+#define PLAYERCAMERAMANAGER 0x360 // PlayerCameraManager | PlayerController
+
+#define cam1 0x160 // Unknown
+#define cam2 0x170 // Unknown
+#define shiftedfrvis 0x178
+
+#define PLATFORM 0x430 // Platform | FortPlayerState
+#define ITEMNAME 0x40 // ItemName | ItemDefinitionBase
+#define b_is_dying 0x728 // bIsDying | FortPawn
+#define p_name_structure 0xB08
+#define WEAPONDATA 0x570 // WeaponData | FortWeapon 
+#define NetConnectionxd 0x520 // NetConnection | PlayerController
+#define CURRENTWEAPON 0xAA8 // CurrentWeapon | FortPawn
